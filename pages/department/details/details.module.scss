@@ -1,0 +1,64 @@
+.item__area {
+  transition: all ease 0.3s;
+  .active {
+    background: green;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+  .passive {
+    background: red;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+  .point__and__text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    span {
+      margin-right: 10px;
+    }
+  }
+  .title {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    &:hover {
+      color: #ff9800;
+    }
+  }
+  .location {
+    text-decoration: none;
+    p {
+      margin-bottom: 6px;
+      color: #777;
+    }
+    a {
+      font-size: 16px;
+      color: black;
+      text-decoration: none;
+      transition: all ease 0.3s;
+      &:hover {
+        color: #ff9800;
+      }
+    }
+  }
+  .gender {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    p {
+      margin: 5px 0 5px 0;
+      font-size: 16px;
+      span {
+        font-weight: 500;
+      }
+    }
+  }
+  .location {
+  }
+}

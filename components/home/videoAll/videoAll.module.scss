@@ -1,0 +1,66 @@
+.video__all {
+  background: #434448;
+  padding-bottom: 34px;
+  .video__head {
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 991px) {
+      margin: 16px 0px;
+    }
+    h2 {
+      font-family: "Sora";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 50px;
+      color: #ffffff;
+      @media (max-width: 991px) {
+        font-size: 24px;
+        line-height: 30px;
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+  .btn {
+    font-family: "Sora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #ed1c24;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    width: 250px;
+    height: 52px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 991px) {
+      display: none;
+    }
+    &.btn__mobile {
+      display: none;
+      @media (max-width: 991px) {
+        display: flex;
+        width: 100%;
+        margin-top: 16px;
+      }
+    }
+  }
+  iframe {
+    width: 100%;
+    min-height: 738px;
+    @media (max-width: 991px) {
+      min-height: 200px;
+    }
+  }
+}
